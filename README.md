@@ -14,8 +14,8 @@ Consiste em uma api para fazer um crud de usuarios.
 - A camada de Controller utiliza de mapeamentos do Spring para cada situação. Por exemplo, para obter a lista de usuários é utilizado o verbo GET e a anotação é a @GetMapping.
 
 - Atual estado da aplicação:
-    - A aplicação não está completa ainda. Os endpoints estão funcionais mas as visões de cada usuário ainda está por ser feita. Ainda não está ideal e ela poderá ser melhorada com a utilização do Spring Security.
-    - Pode ser feito no momento requests que envolvam o CRUD de basicamente todas as entidades(Admin, Aluno, Coordenador, Curso, Cadeira, Professor e Semestre).
+- A aplicação não está completa ainda. Os endpoints estão funcionais mas as visões de cada usuário ainda está por ser feita. Ainda não está ideal e ela poderá ser melhorada com a utilização do Spring Security.
+- Pode ser feito no momento requests que envolvam o CRUD de basicamente todas as entidades(Admin, Aluno, Coordenador, Curso, Cadeira, Professor e Semestre).
  
 
 ## Tecnologias/frameworks utilizados
