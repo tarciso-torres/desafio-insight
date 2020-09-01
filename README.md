@@ -34,7 +34,7 @@ Foram utilizadas tecnologias atuais de maneira que seja tirado proveito dos avan
 1.  Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>./gradlew build</code> para gerar o build da api
 1. Instalar Docker e Docker Compose.
 2. Fazer o fork do projeto e em seguida baixá-lo <code>git clone https://github.com/tarciso-torres/projeto-nati.git</code>
-3. Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>docker-compose up</code>. Isso fará com que o docker-compose criará um container para o postgreSQL e só depois que o banco estiver operacionavel ele subirá o container da aplicação.
+3. Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>docker-compose up --build</code>. Isso fará com que o docker-compose criará um container para o postgreSQL e só depois que o banco estiver operacionavel ele subirá o container da aplicação.
 
 ## Exemplo do código
 
