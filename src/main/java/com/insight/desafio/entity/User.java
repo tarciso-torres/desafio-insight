@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import org.hibernate.annotations.Type;
 
 @Entity
+@Table(name = "tb_user")
 public class User{
 
 	@Id @Type(type = "pg-uuid")
