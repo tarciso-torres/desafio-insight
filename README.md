@@ -31,10 +31,11 @@ Foram utilizadas tecnologias atuais de maneira que seja tirado proveito dos avan
 - [Docker Compose 1.17.1](https://www.docker.com)
 
 ## Instalação
-1.  Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>./gradlew build</code> para gerar o build da api
-1. Instalar Docker e Docker Compose.
-2. Fazer o fork do projeto e em seguida baixá-lo <code>git clone https://github.com/tarciso-torres/projeto-nati.git</code>
-3. Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>docker-compose up --build</code>. Isso fará com que o docker-compose criará um container para o postgreSQL e só depois que o banco estiver operacionavel ele subirá o container da aplicação.
+1. Fazer o fork do projeto e em seguida baixá-lo <code>git clone https://github.com/tarciso-torres/desafio-insight.git</code>
+2.  Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>./gradlew build</code> para gerar o build da api
+3. Instalar Docker e Docker Compose.
+4. Fazer o fork do projeto e em seguida baixá-lo <code>git clone https://github.com/tarciso-torres/projeto-nati.git</code>
+5. Navegar até a raiz do projeto e execute via linha de comando, o seguinte: <code>docker-compose up --build</code>. Isso fará com que o docker-compose criará um container para o postgreSQL e só depois que o banco estiver operacionavel ele subirá o container da aplicação.
 
 ## Exemplo do código
 

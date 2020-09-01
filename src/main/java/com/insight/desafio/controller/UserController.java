@@ -39,7 +39,7 @@ public class UserController {
                 HttpStatus.NOT_FOUND));
     }
 
-    @PostMapping("/user/save")
+    @PostMapping("/save")
     User save(@RequestBody User user) {
         return userRepository.save(user);
     }
